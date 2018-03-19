@@ -49,7 +49,7 @@
 >         title：标题
 >         description：描述（当type为image时可能出现，对于图片的描述）
 >         ]
->     mediaContent：媒体内容
+>     mediaContent：媒体内容（图片，视频或地图）
 >         [
 >         type：主内容的类型（image,text,video,geo）
 >         matter：内含的物质
