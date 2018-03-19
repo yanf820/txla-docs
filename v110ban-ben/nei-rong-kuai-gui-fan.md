@@ -63,7 +63,7 @@
 >         title：标题
 >         description：描述（当type为image时可能出现，对于图片的描述）
 >         ]
->     extends：扩展列表  
+>     extendContents：扩展列表  
 >          [  
 >          type：扩展类型（servant,product)  
 >          matters: 服务或商品列表（json数组）
