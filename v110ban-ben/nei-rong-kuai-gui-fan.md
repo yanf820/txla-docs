@@ -12,7 +12,7 @@
 >         title：标题  
 >         description：描述（当type为image时可能出现，对于图片的描述）  
 >         ]  
->     extends：扩展列表  
+>     extendContents：扩展列表  
 >          [  
 >          type：扩展类型（servant,product)  
 >          ids: 商品或服务的ID列表  
