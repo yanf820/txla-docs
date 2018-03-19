@@ -7,7 +7,7 @@
 >     description：描述  
 >     mainContent：主内容  
 >         [  
->         type：主内容的类型（image,text）  
+>         type：主内容的类型（image,text,video,geo）  
 >         matter：内含的物质
 >         title：标题  
 >         description：描述（当type为image时可能出现，对于图片的描述）  
