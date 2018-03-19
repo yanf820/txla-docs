@@ -1,6 +1,6 @@
-# 内容块发布编辑参数说明
+## 内容块发布编辑参数说明
 
-## 文章及图集
+### 文章及图集
 
 > ```
 >     title：标题  
@@ -18,6 +18,15 @@
 >          ids: 商品或服务的ID列表，图片或视频的url列表 string[]  
 >          ]
 >     detailContent: string（全部html代码）
+> ```
+
+## 内容详情参数
+
+### 文章及图集
+
+> ```
+> title：标题
+> detailContent:string（全部html代码）
 > ```
 
 
