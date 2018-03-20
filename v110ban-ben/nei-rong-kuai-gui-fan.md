@@ -46,7 +46,10 @@
 >            shareInfo：分享信息
 >              title: 分享标题
 >              desc: 分享描述
->              thumbnail: 分享图片
+>              thumbnail: 分享缩略图
+>            reportInfo: 举报信息
+>              reportType：举报目标类型
+>              reportTargetId：举报目标ID
 >     textContent：文本内容
 >         [
 >         type：文本内容的类型（text）
