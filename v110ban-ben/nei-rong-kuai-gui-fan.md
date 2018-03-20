@@ -44,7 +44,7 @@
 >            urlString：路由地址
 >     textContent：文本内容
 >         [
->         type：主内容的类型（image,text,video,geo）
+>         type：文本内容的类型（text）
 >         matter：内含的物质
 >         title：标题
 >         description：描述（当type为image时可能出现，对于图片的描述）
