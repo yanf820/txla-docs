@@ -6,15 +6,11 @@
 
 样式2： vm-commodity
 
-
-
 （2）多资源横板：horizontalMultiResource
 
 样式1：hm-commodity
 
 样式2：hm-ticket
-
-
 
 （3）图文： imageText
 
@@ -28,13 +24,9 @@
 
 样式5：it-imageGalleryText
 
-
-
 （4）天气：weather
 
 样式1： w-wta
-
-
 
 （5）投票：vote
 
@@ -42,15 +34,13 @@
 
 样式2：v-options
 
+（6）地图模板：map
 
+样式1：m-default
 
-（6）嵌入模板：embedded
+（7）视频模板：video
 
-商品嵌入样式： e-commodity
-
-服务嵌入样式： e-servant
-
-
+样式1：v-default
 
 ## 按钮分类
 
@@ -63,8 +53,6 @@
 （4）三按钮：three
 
 （5）四按钮：four
-
-
 
 按钮样式：
 
