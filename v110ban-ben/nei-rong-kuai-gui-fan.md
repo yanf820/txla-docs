@@ -43,6 +43,10 @@
 >         route：路由规则
 >         options：路由选项
 >            urlString：路由地址
+>            shareInfo：分享信息
+>              title: 分享标题
+>              desc: 分享描述
+>              thumbnail: 分享图片
 >     textContent：文本内容
 >         [
 >         type：文本内容的类型（text）
