@@ -38,6 +38,7 @@
 >     description：描述
 >     templateType：模板类型
 >     styleType：样式类型
+>     embedded: 是否嵌入
 >     link：内容块点击跳转
 >         route：路由规则
 >         options：路由选项
