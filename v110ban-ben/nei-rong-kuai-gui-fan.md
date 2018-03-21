@@ -27,6 +27,7 @@
 > ```
 > title：标题
 > detailContent:string（全部html代码）
+>
 > ```
 
 ## 内容块预览参数
