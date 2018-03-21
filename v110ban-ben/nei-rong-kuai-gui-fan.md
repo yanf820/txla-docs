@@ -15,7 +15,7 @@
 >     extendContents：扩展列表  
 >          [  
 >          type：扩展类型（servant,product)  
->          ids: 商品或服务的ID列表  
+>          matters: 商品或服务的ID列表  
 >          ]
 >     detailContent: string（全部html代码）
 > ```
@@ -27,7 +27,6 @@
 > ```
 > title：标题
 > detailContent:string（全部html代码）
->
 > ```
 
 ## 内容块预览参数
