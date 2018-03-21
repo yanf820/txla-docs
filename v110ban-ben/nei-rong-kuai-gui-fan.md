@@ -15,7 +15,7 @@
 >     extendContents：扩展列表  
 >          [  
 >          type：扩展类型（servant,product)  
->          matters: 商品或服务的ID列表  
+>          matters: 商品或服务的ID列表json  
 >          ]
 >     detailContent: string（全部html代码）
 > ```
