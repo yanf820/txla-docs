@@ -64,7 +64,7 @@
 >         matter：内含的物质
 >         title：标题
 >         description：描述（当type为image时可能出现，对于图片的描述）
->         additionProps：附加参数Map<String,Object>
+>         additionProps：附加参数Map<String,Object> （地图用到： lat,lng两个参数，值为double; 视频用到cover，作为视频截图，值为string）
 >         ]
 >     extendContents：扩展列表  
 >          [  
