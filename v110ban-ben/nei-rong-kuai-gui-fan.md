@@ -70,6 +70,21 @@
 >          [  
 >          type：扩展类型（servant,product)  
 >          matters: 服务或商品列表（json数组）
+>            类型为服务
+>                    [
+>                      id:
+>                      icon:
+>                      title:
+>                    ]
+>             类型为商品
+>                    [
+>                      id:
+>                      name:
+>                      picture:
+>                      price:
+>                      store:
+>                      url:
+>                     ]
 >          ] 
 >     actionLayouts：操作按钮布局列表
 >         [
