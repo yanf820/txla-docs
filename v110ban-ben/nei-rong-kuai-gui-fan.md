@@ -66,15 +66,18 @@
 >       ]
 >     },
 >     "extendContents": {
+>       "description": "",
 >       "type": "array",
 >       "items": [
 >         {
 >           "type": "object",
 >           "properties": {
 >             "type": {
+>               "description": "",
 >               "type": "string"
 >             },
 >             "matters": {
+>               "description": "",
 >               "type": "array",
 >               "items": [
 >                 {
