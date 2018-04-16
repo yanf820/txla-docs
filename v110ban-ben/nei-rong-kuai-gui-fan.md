@@ -46,19 +46,19 @@
 >               "type": "string"
 >             },
 >             "title": {
->               "description": "",
+>               "description": "标题(option时，选项的标题放在这里)",
 >               "type": "string"
 >             },
 >             "description": {
->               "description": "",
+>               "description": "描述（当type为image时可能出现，对于图片的描述）",
 >               "type": "string"
 >             },
 >             "matter": {
->               "description": "",
+>               "description": "内含物",
 >               "type": "string"
 >             },
 >             "additionProps": {
->               "description": "",
+>               "description": "附加参数 Map<String,Object>",
 >               "type": "object"
 >             }
 >           }
