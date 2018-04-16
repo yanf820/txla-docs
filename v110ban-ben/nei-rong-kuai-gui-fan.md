@@ -3,25 +3,6 @@
 ### 文章及图集
 
 > ```
->     title：标题  
->     description：描述  
->     mainContent：主内容  
->         [  
->         type：主内容的类型（image,text,video,geo）  
->         matter：内含的物质
->         title：标题  
->         description：描述（当type为image时可能出现，对于图片的描述）  
->         additionProps：附加参数 Map<String,Object>
->         ]  
->     extendContents：扩展列表  
->          [  
->          type：扩展类型（servant,product)  
->          matters: 商品或服务的ID列表json  
->          ]
->     detailContent: string（全部html代码）
->     
->     
->     
 >   {
 >   "type": "object",
 >   "properties": {
