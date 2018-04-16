@@ -22,8 +22,7 @@
 >     
 >     
 >     
->     {
->   "$schema": "http://json-schema.org/draft-04/schema#",
+>   {
 >   "type": "object",
 >   "properties": {
 >     "title": {
@@ -73,7 +72,7 @@
 >           "type": "object",
 >           "properties": {
 >             "type": {
->               "description": "",
+>               "description": "扩展类型（servant,product)",
 >               "type": "string"
 >             },
 >             "matters": {
