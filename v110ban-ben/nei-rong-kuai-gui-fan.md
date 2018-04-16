@@ -219,105 +219,50 @@
 >         
 >
 >         
->  {
+> {
 >   "type": "object",
 >   "properties": {
 >     "title": {
->       "type": "string",
->       "title": "The Title Schema ",
->       "default": "",
->       "examples": [
->         "天下大势男生款"
->       ]
+>       "type": "string"
 >     },
 >     "description": {
->       "type": "string",
->       "title": "The Description Schema ",
->       "default": null,
->       "examples": [
->         null
->       ]
+>       "type": "null"
 >     },
 >     "templateType": {
->       "type": "string",
->       "title": "The Templatetype Schema ",
->       "default": "",
->       "examples": [
->         "map"
->       ]
+>       "type": "string"
 >     },
 >     "styleType": {
->       "type": "string",
->       "title": "The Styletype Schema ",
->       "default": "",
->       "examples": [
->         "m-default"
->       ]
+>       "type": "string"
 >     },
 >     "embedded": {
->       "type": "boolean",
->       "title": "The Embedded Schema ",
->       "default": false,
->       "examples": [
->         true
->       ]
+>       "type": "boolean"
 >     },
 >     "link": {
 >       "type": "object",
 >       "properties": {
 >         "route": {
->           "type": "string",
->           "title": "The Route Schema ",
->           "default": "",
->           "examples": [
->             "H5"
->           ]
+>           "type": "string"
 >         },
 >         "options": {
 >           "type": "object",
 >           "properties": {
 >             "urlString": {
->               "type": "string",
->               "title": "The Urlstring Schema ",
->               "default": "",
->               "examples": [
->                 "http://scence-page.tianxialashou.com.cn/#/articleShow?contentId=84417589b62d4808&sceneAccountId=b8cfc74c1b224765&contentShowType=article"
->               ]
+>               "type": "string"
 >             },
 >             "shareInfo": {
 >               "type": "object",
 >               "properties": {
 >                 "title": {
->                   "type": "string",
->                   "title": "The Title Schema ",
->                   "default": "",
->                   "examples": [
->                     "天下大势男生款"
->                   ]
+>                   "type": "string"
 >                 },
 >                 "desc": {
->                   "type": "string",
->                   "title": "The Desc Schema ",
->                   "default": "",
->                   "examples": [
->                     "我们自己|\\n 创建于 04-16 13:42"
->                   ]
+>                   "type": "string"
 >                 },
 >                 "thumbnail": {
->                   "type": "string",
->                   "title": "The Thumbnail Schema ",
->                   "default": "",
->                   "examples": [
->                     "http://img1.lashouimg.com/txls/M00/00/09/CqgBTVppvHmAcTLbAABbTESAGfw651.png"
->                   ]
+>                   "type": "string"
 >                 },
 >                 "url": {
->                   "type": "null",
->                   "title": "The Url Schema ",
->                   "default": null,
->                   "examples": [
->                     null
->                   ]
+>                   "type": "null"
 >                 }
 >               }
 >             },
@@ -325,30 +270,15 @@
 >               "type": "object",
 >               "properties": {
 >                 "reportType": {
->                   "type": "string",
->                   "title": "The Reporttype Schema ",
->                   "default": "",
->                   "examples": [
->                     "block"
->                   ]
+>                   "type": "string"
 >                 },
 >                 "reportTargetId": {
->                   "type": "string",
->                   "title": "The Reporttargetid Schema ",
->                   "default": "",
->                   "examples": [
->                     "84417589b62d4808"
->                   ]
+>                   "type": "string"
 >                 }
 >               }
 >             },
 >             "sceneAccountId": {
->               "type": "string",
->               "title": "The Sceneaccountid Schema ",
->               "default": null,
->               "examples": [
->                 null
->               ]
+>               "type": "null"
 >             }
 >           }
 >         }
@@ -360,36 +290,16 @@
 >         "type": "object",
 >         "properties": {
 >           "type": {
->             "type": "string",
->             "title": "The Type Schema ",
->             "default": "",
->             "examples": [
->               "text"
->             ]
+>             "type": "string"
 >           },
 >           "title": {
->             "type": "null",
->             "title": "The Title Schema ",
->             "default": null,
->             "examples": [
->               null
->             ]
+>             "type": "null"
 >           },
 >           "description": {
->             "type": "null",
->             "title": "The Description Schema ",
->             "default": null,
->             "examples": [
->               null
->             ]
+>             "type": "null"
 >           },
 >           "matter": {
->             "type": "string",
->             "title": "The Matter Schema ",
->             "default": "",
->             "examples": [
->               "我要把它放在我心里是的哈斯哈哈哈哈？哈哈哈我要的东西吃饭风风光光更发达地区挂职副主任？哈哈哈我也我要把自己弄丢饿饿饿饿饿哒？哈哈哈哈哈，我哈哈哈哈哈，我要去买菜了！哈哈哈我自己了！哈哈哈哈哈。哈哈哈哈哈。哈哈哈我要的生活"
->             ]
+>             "type": "string"
 >           },
 >           "additionProps": {
 >             "type": "object"
@@ -403,55 +313,25 @@
 >         "type": "object",
 >         "properties": {
 >           "type": {
->             "type": "string",
->             "title": "The Type Schema ",
->             "default": "",
->             "examples": [
->               "geo"
->             ]
+>             "type": "string"
 >           },
 >           "title": {
->             "type": "string",
->             "title": "The Title Schema ",
->             "default": "",
->             "examples": [
->               "来广营容和路1号院1号楼"
->             ]
+>             "type": "string"
 >           },
 >           "description": {
->             "type": "null",
->             "title": "The Description Schema ",
->             "default": null,
->             "examples": [
->               null
->             ]
+>             "type": "null"
 >           },
 >           "matter": {
->             "type": "string",
->             "title": "The Matter Schema ",
->             "default": "",
->             "examples": [
->               "http://txls-img.bj.bcebos.com/1523857262693.jpg"
->             ]
+>             "type": "string"
 >           },
 >           "additionProps": {
 >             "type": "object",
 >             "properties": {
 >               "lng": {
->                 "type": "string",
->                 "title": "The Lng Schema ",
->                 "default": "",
->                 "examples": [
->                   "116.474814"
->                 ]
+>                 "type": "string"
 >               },
 >               "lat": {
->                 "type": "string",
->                 "title": "The Lat Schema ",
->                 "default": "",
->                 "examples": [
->                   "40.021963"
->                 ]
+>                 "type": "string"
 >               }
 >             }
 >           }
@@ -464,22 +344,12 @@
 >         "type": "object",
 >         "properties": {
 >           "type": {
->             "type": "string",
->             "title": "The Type Schema ",
->             "default": "",
->             "examples": [
->               "product"
->             ]
+>             "type": "string"
 >           },
 >           "matters": {
 >             "type": "array",
 >             "items": {
->               "type": "string",
->               "title": "The 0th Schema ",
->               "default": "",
->               "examples": [
->                 "{\"id\":\"350\",\"name\":\"法融调味瓶\",\"picture\":\"http://m1.lashouimg.com/mall/M00/00/C4/CqgBTFmVYOqAInpcAAjXU26xTlo978.png\",\"price\":136.0,\"storeName\":\"南京暇满文化发展有限公司•牛首山文创\",\"url\":\"http://shop.tianxialashou.com.cn/wap/tmpl/product_detail.html?goods_id=350\"}"
->               ]
+>               "type": "string"
 >             }
 >           }
 >         }
@@ -491,90 +361,40 @@
 >         "type": "object",
 >         "properties": {
 >           "type": {
->             "type": "string",
->             "title": "The Type Schema ",
->             "default": "",
->             "examples": [
->               "link"
->             ]
+>             "type": "string"
 >           },
 >           "name": {
->             "type": "null",
->             "title": "The Name Schema ",
->             "default": null,
->             "examples": [
->               null
->             ]
+>             "type": "null"
 >           },
 >           "title": {
->             "type": "string",
->             "title": "The Title Schema ",
->             "default": "",
->             "examples": [
->               "我们自己 · 天下拉手"
->             ]
+>             "type": "string"
 >           },
 >           "icon": {
->             "type": "string",
->             "title": "The Icon Schema ",
->             "default": "",
->             "examples": [
->               "http://img1.lashouimg.com/txls/M00/00/38/CqgBTVqgn12AdmwoAAAERqkmT38560.png"
->             ]
+>             "type": "string"
 >           },
 >           "style": {
->             "type": "string",
->             "title": "The Style Schema ",
->             "default": "",
->             "examples": [
->               "source"
->             ]
+>             "type": "string"
 >           },
 >           "link": {
 >             "type": "object",
 >             "properties": {
 >               "route": {
->                 "type": "string",
->                 "title": "The Route Schema ",
->                 "default": "",
->                 "examples": [
->                   "LSSceneAccountHomePage"
->                 ]
+>                 "type": "string"
 >               },
 >               "options": {
 >                 "type": "object",
 >                 "properties": {
 >                   "urlString": {
->                     "type": "null",
->                     "title": "The Urlstring Schema ",
->                     "default": null,
->                     "examples": [
->                       null
->                     ]
+>                     "type": "null"
 >                   },
 >                   "shareInfo": {
->                     "type": "null",
->                     "title": "The Shareinfo Schema ",
->                     "default": null,
->                     "examples": [
->                       null
->                     ]
+>                     "type": "null"
 >                   },
 >                   "reportInfo": {
->                     "type": "null",
->                     "title": "The Reportinfo Schema ",
->                     "default": null,
->                     "examples": [
->                       null
->                     ]
+>                     "type": "null"
 >                   },
 >                   "sceneAccountId": {
->                     "type": "string",
->                     "title": "The Sceneaccountid Schema ",
->                     "default": "",
->                     "examples": [
->                       "b8cfc74c1b224765"
->                     ]
+>                     "type": "string"
 >                   }
 >                 }
 >               }
@@ -584,15 +404,10 @@
 >       }
 >     },
 >     "imageMediaContent": {
->       "type": "null",
->       "title": "The Imagemediacontent Schema ",
->       "default": null,
->       "examples": [
->         null
->       ]
+>       "type": "null"
 >     }
 >   }
-> }                      
+> }
 > ```
 
 
