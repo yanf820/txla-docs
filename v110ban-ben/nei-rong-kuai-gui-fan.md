@@ -81,6 +81,7 @@
 >               "type": "array",
 >               "items": [
 >                 {
+>                   "description": "商品或服务的ID",
 >                   "type": "string"
 >                 }
 >               ]
