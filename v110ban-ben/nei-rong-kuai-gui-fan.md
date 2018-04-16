@@ -92,6 +92,63 @@
 > ```
 > title：标题
 > detailContent:string（全部html代码）
+>
+>
+> {
+>   "type": "object",
+>   "properties": {
+>     "title": {
+>       "description": "标题",
+>       "type": "string"
+>     },
+>     "embedded": {
+>       "description": "是否有嵌入",
+>       "type": "boolean"
+>     },
+>     "detailContent": {
+>       "description": "新的html",
+>       "type": "string"
+>     },
+>     "productExtendContent": {
+>       "description": "商品扩展",
+>       "type": "object",
+>       "properties": {
+>         "type": {
+>           "description": "扩展类型（product,servant）",
+>           "type": "string"
+>         },
+>         "matters": {
+>           "type": "array",
+>           "items": [
+>             {
+>               "description": "商品信息",
+>               "type": "string"
+>             }
+>           ]
+>         }
+>       }
+>     },
+>     "servantExtendContent": {
+>       "description": "",
+>       "type": "object",
+>       "properties": {
+>         "type": {
+>           "description": "扩展类型（product,servant）",
+>           "type": "string"
+>         },
+>         "matters": {
+>           "type": "array",
+>           "items": [
+>             {
+>               "description": "服务信息",
+>               "type": "string"
+>             }
+>           ]
+>         }
+>       }
+>     }
+>   }
+> }
 > ```
 
 ## 内容块预览参数
