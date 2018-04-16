@@ -57,7 +57,9 @@
 >               "type": "string"
 >             },
 >             "additionProps": {
->               "description": "附加参数 Map<String,Object>",
+>               "description": "附加参数 Map<String,Object>，
+>                               type=geo时，包含key：lat，lng;
+>                               type=video,包含key: cover",
 >               "type": "object"
 >             }
 >           }
