@@ -19,6 +19,84 @@
 >          matters: 商品或服务的ID列表json  
 >          ]
 >     detailContent: string（全部html代码）
+>     
+>     
+>     
+>     {
+>   "$schema": "http://json-schema.org/draft-04/schema#",
+>   "type": "object",
+>   "properties": {
+>     "title": {
+>       "description": "标题"
+>       "type": "string"
+>     },
+>     "description": {
+>       "description": "描述",
+>       "type": "string"
+>     },
+>     "mainContent": {
+>       "description":"主内容",
+>       "type": "array",
+>       "items": [
+>         {
+>           "type": "object",
+>           "properties": {
+>             "type": {
+>               "description": "主内容的类型（image,text,video,geo,option）",
+>               "type": "string"
+>             },
+>             "title": {
+>               "description": "",
+>               "type": "string"
+>             },
+>             "description": {
+>               "description": "",
+>               "type": "string"
+>             },
+>             "matter": {
+>               "description": "",
+>               "type": "string"
+>             },
+>             "additionProps": {
+>               "description": "",
+>               "type": "object"
+>             }
+>           }
+>         }
+>       ]
+>     },
+>     "extendContents": {
+>       "type": "array",
+>       "items": [
+>         {
+>           "type": "object",
+>           "properties": {
+>             "type": {
+>               "type": "string"
+>             },
+>             "matters": {
+>               "type": "array",
+>               "items": [
+>                 {
+>                   "type": "string"
+>                 }
+>               ]
+>             }
+>           }
+>         }
+>       ]
+>     },
+>     "detailContent": {
+>       "type": "string"
+>     },
+>     "originalContent": {
+>       "type": "string"
+>     },
+>     "tags": {
+>       "type": "null"
+>     }
+>   }
+> }
 > ```
 
 ## 内容详情参数
