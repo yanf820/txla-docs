@@ -223,45 +223,58 @@
 >   "type": "object",
 >   "properties": {
 >     "title": {
+>       "description": "",
 >       "type": "string"
 >     },
 >     "description": {
+>       "description": "",
 >       "type": "null"
 >     },
 >     "templateType": {
+>       "description": "",
 >       "type": "string"
 >     },
 >     "styleType": {
+>       "description": "",
 >       "type": "string"
 >     },
 >     "embedded": {
+>       "description": "",
 >       "type": "boolean"
 >     },
 >     "link": {
+>       "description": "",
 >       "type": "object",
 >       "properties": {
 >         "route": {
+>           "description": "",
 >           "type": "string"
 >         },
 >         "options": {
+>           "description": "",
 >           "type": "object",
 >           "properties": {
 >             "urlString": {
 >               "type": "string"
 >             },
 >             "shareInfo": {
+>               "description": "",
 >               "type": "object",
 >               "properties": {
 >                 "title": {
+>                   "description": "",
 >                   "type": "string"
 >                 },
 >                 "desc": {
+>                   "description": "",
 >                   "type": "string"
 >                 },
 >                 "thumbnail": {
+>                   "description": "",
 >                   "type": "string"
 >                 },
 >                 "url": {
+>                   "description": "",
 >                   "type": "null"
 >                 }
 >               }
