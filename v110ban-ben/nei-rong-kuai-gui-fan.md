@@ -65,7 +65,7 @@
 >       ]
 >     },
 >     "extendContents": {
->       "description": "",
+>       "description": "扩展列表",
 >       "type": "array",
 >       "items": [
 >         {
@@ -90,13 +90,12 @@
 >       ]
 >     },
 >     "detailContent": {
+>       "description": "新的html",
 >       "type": "string"
 >     },
 >     "originalContent": {
+>       "description": "原始html",
 >       "type": "string"
->     },
->     "tags": {
->       "type": "null"
 >     }
 >   }
 > }
