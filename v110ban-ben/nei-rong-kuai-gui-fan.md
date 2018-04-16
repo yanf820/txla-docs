@@ -60,7 +60,7 @@
 >               "description": "附加参数 Map<String,Object>，
 >                               type=geo时，包含key：lat，lng;
 >                               type=video,包含key: cover;
->                               type=option,包含key: votingType（单选-single,多选-multi）",
+>                               type=option,包含key: votingType（单选-single,多选-multi），deadline-截至时间（long）",
 >               "type": "object"
 >             }
 >           }
