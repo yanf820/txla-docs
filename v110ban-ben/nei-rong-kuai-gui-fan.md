@@ -77,7 +77,7 @@
 >               "type": "string"
 >             },
 >             "matters": {
->               "description": "",
+>               "description": "内含物",
 >               "type": "array",
 >               "items": [
 >                 {
