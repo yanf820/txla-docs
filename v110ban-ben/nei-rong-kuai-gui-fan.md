@@ -90,10 +90,6 @@
 ### 文章及图集
 
 > ```
-> title：标题
-> detailContent:string（全部html代码）
->
->
 > {
 >   "type": "object",
 >   "properties": {
