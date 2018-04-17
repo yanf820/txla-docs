@@ -280,17 +280,21 @@
 >               }
 >             },
 >             "reportInfo": {
+>               "description": "",
 >               "type": "object",
 >               "properties": {
 >                 "reportType": {
+>                   "description": "",
 >                   "type": "string"
 >                 },
 >                 "reportTargetId": {
+>                   "description": "",
 >                   "type": "string"
 >                 }
 >               }
 >             },
 >             "sceneAccountId": {
+>               "description": "",
 >               "type": "null"
 >             }
 >           }
@@ -298,6 +302,36 @@
 >       }
 >     },
 >     "textContent": {
+>       "description": "",
+>       "type": "array",
+>       "items": {
+>         "type": "object",
+>         "properties": {
+>           "type": {
+>             "description": "",
+>             "type": "string"
+>           },
+>           "title": {
+>             "description": "",
+>             "type": "null"
+>           },
+>           "description": {
+>             "description": "",
+>             "type": "null"
+>           },
+>           "matter": {
+>             "description": "",
+>             "type": "string"
+>           },
+>           "additionProps": {
+>             "description": "",
+>             "type": "object"
+>           }
+>         }
+>       }
+>     },
+>     "mediaContent": {
+>       "description": "",
 >       "type": "array",
 >       "items": {
 >         "type": "object",
@@ -306,7 +340,7 @@
 >             "type": "string"
 >           },
 >           "title": {
->             "type": "null"
+>             "type": "string"
 >           },
 >           "description": {
 >             "type": "null"
@@ -320,38 +354,8 @@
 >         }
 >       }
 >     },
->     "mediaContent": {
->       "type": "array",
->       "items": {
->         "type": "object",
->         "properties": {
->           "type": {
->             "type": "string"
->           },
->           "title": {
->             "type": "string"
->           },
->           "description": {
->             "type": "null"
->           },
->           "matter": {
->             "type": "string"
->           },
->           "additionProps": {
->             "type": "object",
->             "properties": {
->               "lng": {
->                 "type": "string"
->               },
->               "lat": {
->                 "type": "string"
->               }
->             }
->           }
->         }
->       }
->     },
 >     "extendContents": {
+>       "description": "",
 >       "type": "array",
 >       "items": {
 >         "type": "object",
@@ -362,6 +366,7 @@
 >           "matters": {
 >             "type": "array",
 >             "items": {
+>               "description": "",
 >               "type": "string"
 >             }
 >           }
@@ -374,18 +379,23 @@
 >         "type": "object",
 >         "properties": {
 >           "type": {
+>             "description": "",
 >             "type": "string"
 >           },
 >           "name": {
+>             "description": "",
 >             "type": "null"
 >           },
 >           "title": {
+>             "description": "",
 >             "type": "string"
 >           },
 >           "icon": {
+>             "description": "",
 >             "type": "string"
 >           },
 >           "style": {
+>             "description": "",
 >             "type": "string"
 >           },
 >           "link": {
@@ -398,15 +408,19 @@
 >                 "type": "object",
 >                 "properties": {
 >                   "urlString": {
+>                     "description": "",
 >                     "type": "null"
 >                   },
 >                   "shareInfo": {
+>                     "description": "",
 >                     "type": "null"
 >                   },
 >                   "reportInfo": {
+>                     "description": "",
 >                     "type": "null"
 >                   },
 >                   "sceneAccountId": {
+>                     "description": "",
 >                     "type": "string"
 >                   }
 >                 }
@@ -415,9 +429,6 @@
 >           }
 >         }
 >       }
->     },
->     "imageMediaContent": {
->       "type": "null"
 >     }
 >   }
 > }
