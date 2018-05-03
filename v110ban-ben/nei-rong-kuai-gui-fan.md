@@ -5,7 +5,7 @@
 > ```
 >   {
 >   "type": "object",
->   "properties": {
+>   "properties": { 
 >     "title": {
 >       "description": "标题"
 >       "type": "string"
