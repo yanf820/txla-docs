@@ -7,7 +7,7 @@
 >   "type": "object",
 >   "properties": { 
 >     "title": {
->       "description": "标题" 
+>       "description": "标题"
 >       "type": "string"
 >     },
 >     "description": {
