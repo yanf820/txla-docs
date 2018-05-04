@@ -1,3 +1,5 @@
+# 模板与按钮类型及样式资源说明
+
 ## 模板分类
 
 （1）多资源竖版： verticalMultiResource
