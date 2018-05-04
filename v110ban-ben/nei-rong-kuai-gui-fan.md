@@ -4,7 +4,7 @@
 
 > ```
 >   {787wqeqw123123123313131231231
->   "type": "object",1
+>   "type": "object",1qeqwe
 >   "properties": { 
 >     "title": {
 >       "description": "标题"
