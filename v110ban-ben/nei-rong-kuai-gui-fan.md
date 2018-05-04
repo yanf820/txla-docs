@@ -16,7 +16,7 @@
 >     },
 >     "mainContent": {
 >       "description":"主内容",
->       "type": "array",
+>       "type": "array",qwe
 >       "items": 
 >         {
 >           "type": "object",
