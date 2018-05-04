@@ -19,7 +19,7 @@
 >       "type": "array",qwe
 >       "items": 
 >         {
->           "type": "object",
+>           "type": "object",asdasd
 >           "properties": {
 >             "type": {
 >               "description": "主内容的类型（image,text,video,geo,option）",
