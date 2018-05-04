@@ -3,8 +3,8 @@
 ### 文章及图集、投票
 
 > ```
->   {787wqeqw1231231233131312312311231123qeqqwe2132asdas
->   "type": "object",1qeqwe1312300s
+>   {
+>   "type": "object",
 >   "properties": { qwe
 >     "title": {123
 >       "description": "标题"
@@ -16,10 +16,10 @@
 >     },
 >     "mainContent": {
 >       "description":"主内容",
->       "type": "array",qwe
+>       "type": "array",
 >       "items": 
 >         {
->           "type": "object",asdasd
+>           "type": "object",
 >           "properties": {
 >             "type": {
 >               "description": "主内容的类型（image,text,video,geo,option）",
