@@ -5,7 +5,7 @@
 > ```
 >   {787wqeqw1231231233131312312311231123qeqqwe2132asd
 >   "type": "object",1qeqwe1312300
->   "properties": { 
+>   "properties": { qwe
 >     "title": {
 >       "description": "标题"
 >       "type": "string"
